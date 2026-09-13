@@ -12,11 +12,11 @@ fullscreen = 0
 android.permissions = INTERNET, VIBRATE, RECEIVE_BOOT_COMPLETED, POST_NOTIFICATIONS
 android.api = 31
 android.minapi = 21
-android.sdk = 31
 android.ndk = 25b
-android.ndk_api = 21
 android.archs = arm64-v8a
 
 [buildozer]
 log_level = 2
 warn_on_root = 1
+# Desactiva cualquier intento de aceptar licencias de forma interactiva
+accept_sdk_license = True
